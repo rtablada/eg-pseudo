@@ -7,6 +7,9 @@ const oAuthGrantSpy = sinon.stub();
 const options = {
   name: 'Integration - Resources - Register',
   module: 'resource:register',
+  resetDb: true,
+  scenario: 'create-oauth-client',
+  transaction: true,
   with: {
     'service:store': true,
     'service:oauth': { grant: oAuthGrantSpy },
