@@ -1,6 +1,6 @@
 import PostResource from 'driven/resources/post';
 
-// GET register
+// POST register
 // x-www-form-urlencoded
 // username=ryan@example.com
 // password=***
